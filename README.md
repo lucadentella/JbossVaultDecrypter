@@ -14,7 +14,9 @@ To be able to open the Vault, you need the following information:
 You can find the information in Jboss standalone.xml file.
 
 Run the utility with:
-```java -jar vaultDecrypter.jar <VaultFile> <KeystoreFile> <KeystorePassword> <KeystoreSalt> <KeystoreIteration>
+```
+java -jar vaultDecrypter.jar <VaultFile> <KeystoreFile> <KeystorePassword> <KeystoreSalt> <KeystoreIteration>
+```
 
 ## How to compile
 The following libraries are required to compile and run the code:
